@@ -1,8 +1,9 @@
 
 body {
-font-family: "Roboto",sans-serif;
-color: #434455;
-background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    line-height: 1.5;
 }
 
 ul,ol {
@@ -45,10 +46,6 @@ a {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-}
-
-.contacts {
-    font-style: normal;
 }
 
 .contacts-link {
@@ -127,6 +124,9 @@ a {
     background-color: #f4f4fd;
 }
 
+.team-item {
+    background-color: #ffffff;
+}
 .team-title {
     font-weight: 500;
     font-size: 20px;
@@ -142,14 +142,35 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+.projects-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.projects-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
+.projects-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .page-footer {
     background-color: #2e2f42;
 }
- .footer-text {
-    font-weight: 400;
+
+.footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
- }
+}
